@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>User Data & Privacy Portal — #ABHIKISM (users.abhikism.com)</title>
+  <meta name="description" content="Official #ABHIKISM Member Data Sovereignty & Privacy Portal (users.abhikism.com). Verify your gameplay certificate records across all #ABHIKISM interactive games and exercise instant self-service data removal.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://users.abhikism.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="#ABHIKISM">
+  <meta property="og:title" content="User Data &amp; Privacy Portal — #ABHIKISM (users.abhikism.com)">
+  <meta property="og:description" content="Verify your gameplay records and exercise instant self-service soft deletion across #ABHIKISM interactive games and leaderboards.">
+  <meta property="og:url" content="https://users.abhikism.com/">
+  <meta property="og:image" content="https://songs.abhikism.com/assets/artworks/daakbaksher-gaan.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="User Data &amp; Privacy Portal — #ABHIKISM">
+  <meta name="twitter:description" content="Self-service gameplay record verification and data deletion across #ABHIKISM interactive games.">
+  <meta name="twitter:image" content="https://songs.abhikism.com/assets/artworks/daakbaksher-gaan.webp">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "User Data & Privacy Portal — #ABHIKISM",
+        "url": "https://users.abhikism.com/",
+        "description": "Self-service player privacy portal for reviewing and soft-deleting gameplay records across #ABHIKISM interactive song games.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "#ABHIKISM",
+          "url": "https://abhikism.com/",
+          "sameAs": [
+            "https://abhikism.com/",
+            "https://songs.abhikism.com/",
+            "https://games.abhikism.com/",
+            "https://users.abhikism.com/"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "#ABHIKISM", "item": "https://abhikism.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Games Arcade", "item": "https://games.abhikism.com/" },
+          { "@type": "ListItem", "position": 3, "name": "User Privacy Portal", "item": "https://users.abhikism.com/" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Noto+Serif+Bengali:wght@500;600;700&family=Questrial&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-void: #0E0F12;
+      --card-surface: #161821;
+      --card-elevated: #1D202B;
+      --ink-cream: #F5EFE1;
+      --ink-ochre: #E5CF98;
+      --ink-muted: #A9A499;
+      --saul-crimson: #C7242B;
+      --saul-crimson-hover: #DF2B33;
+      --teal-primary: #008779;
+      --neon-lime: #90FF6C;
+      --border-subtle: #2E3242;
+      --shadow-hard: 5px 5px 0px #000000;
+      --radius-sm: 6px;
+      --radius-md: 12px;
+    }
+
+    body.theme-high-contrast {
+      --bg-void: #000000;
+      --card-surface: #0A0B0E;
+      --card-elevated: #12141B;
+      --ink-cream: #FFFFFF;
+      --ink-ochre: #FFE28A;
+      --ink-muted: #D5D0C5;
+      --saul-crimson: #E6242C;
+      --border-subtle: #5C627A;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: radial-gradient(circle at 18% 0%, #1C1317 0%, var(--bg-void) 55%);
+      color: var(--ink-cream);
+      font-family: 'Questrial', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      background: rgba(14, 15, 18, 0.96);
+      border-bottom: 3px solid var(--saul-crimson);
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(8px);
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-stamp {
+      background: var(--saul-crimson);
+      color: #FFFFFF;
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 1px;
+      padding: 5px 9px;
+      border-radius: var(--radius-sm);
+      border: 1.5px solid var(--ink-cream);
+      box-shadow: 3px 3px 0px #000000;
+    }
+
+    .brand-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: -0.3px;
+      color: var(--ink-cream);
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      color: var(--ink-ochre);
+      font-family: 'Noto Serif Bengali', serif;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--ink-cream);
+      text-decoration: none;
+      padding: 6px 11px;
+      border: 1.5px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      background: var(--card-elevated);
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s ease;
+    }
+
+    .nav-link:hover {
+      border-color: var(--ink-ochre);
+      color: var(--ink-ochre);
+      transform: translate(-1px, -1px);
+      box-shadow: 2px 2px 0px #000000;
+    }
+
+    .nav-link.active {
+      background: var(--saul-crimson);
+      border-color: var(--ink-cream);
+      color: #FFFFFF;
+    }
+
+    main {
+      width: 100%;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 34px 20px 56px 20px;
+      flex: 1;
+    }
+
+    .portal-hero {
+      background: var(--card-surface);
+      border: 2px solid var(--saul-crimson);
+      border-radius: var(--radius-md);
+      padding: 26px 24px;
+      margin-bottom: 24px;
+      box-shadow: 6px 6px 0px var(--saul-crimson);
+    }
+
+    .hero-kicker {
+      display: inline-block;
+      padding: 3px 9px;
+      border-radius: 4px;
+      background: var(--saul-crimson);
+      color: #FFFFFF;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .portal-hero h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--ink-cream);
+      margin-bottom: 8px;
+      line-height: 1.15;
+    }
+
+    .portal-hero p {
+      color: var(--ink-muted);
+      font-size: 14.5px;
+      max-width: 680px;
+    }
+
+    .trust-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .trust-pill {
+      background: var(--card-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 12px;
+      color: var(--ink-cream);
+    }
+
+    .trust-pill strong {
+      display: block;
+      color: var(--ink-ochre);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      margin-bottom: 2px;
+    }
+
+    .banner {
+      display: none;
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      font-size: 13.5px;
+      font-weight: 600;
+      border: 1.5px solid var(--border-subtle);
+    }
+
+    .banner.success {
+      background: rgba(0, 135, 121, 0.22);
+      border-color: var(--neon-lime);
+      color: var(--neon-lime);
+    }
+
+    .banner.error {
+      background: rgba(199, 36, 43, 0.22);
+      border-color: var(--saul-crimson);
+      color: #FFD5D7;
+    }
+
+    .banner.info {
+      background: rgba(229, 207, 152, 0.14);
+      border-color: var(--ink-ochre);
+      color: var(--ink-ochre);
+    }
+
+    .search-card {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      box-shadow: var(--shadow-hard);
+      margin-bottom: 26px;
+    }
+
+    .tabs-nav {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      border-bottom: 1.5px solid var(--border-subtle);
+      padding-bottom: 12px;
+    }
+
+    .tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 14px;
+      border-radius: 8px;
+      border: 1.5px solid var(--border-subtle);
+      background: var(--card-elevated);
+      color: var(--ink-muted);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--ink-ochre);
+      color: var(--ink-cream);
+    }
+
+    .tab-btn.active {
+      background: var(--saul-crimson);
+      border-color: var(--ink-cream);
+      color: #FFFFFF;
+      box-shadow: 3px 3px 0px #000000;
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .form-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+    }
+
+    .form-group { margin-bottom: 14px; }
+
+    .form-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--ink-ochre);
+      font-family: 'JetBrains Mono', monospace;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 11px 13px;
+      border-radius: 8px;
+      border: 1.5px solid var(--border-subtle);
+      background: #0E0F12;
+      color: var(--ink-cream);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13.5px;
+      outline: none;
+    }
+
+    .form-input:focus {
+      border-color: var(--ink-ochre);
+      box-shadow: 0 0 0 2px rgba(229, 207, 152, 0.2);
+    }
+
+    .form-hint {
+      font-size: 12px;
+      color: var(--ink-muted);
+      margin-top: 6px;
+    }
+
+    .btn-submit {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 20px;
+      border-radius: 9px;
+      border: 1.5px solid var(--ink-cream);
+      background: var(--teal-primary);
+      color: #FFFFFF;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 3px 3px 0px #000000;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    .btn-submit:hover {
+      background: #00A392;
+      transform: translate(-1px, -1px);
+    }
+
+    .btn-submit:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .results-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .results-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 20px;
+      color: var(--ink-cream);
+    }
+
+    .results-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: var(--card-elevated);
+      border: 1px solid var(--ink-ochre);
+      color: var(--ink-ochre);
+    }
+
+    .records-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .record-card {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      box-shadow: var(--shadow-hard);
+    }
+
+    .record-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .cert-id-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .cert-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: #0E0F12;
+      border: 1px solid var(--ink-ochre);
+      color: var(--ink-ochre);
+    }
+
+    .copy-btn {
+      padding: 4px 9px;
+      border-radius: 6px;
+      border: 1px solid var(--border-subtle);
+      background: var(--card-elevated);
+      color: var(--ink-cream);
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .status-pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 5px;
+    }
+
+    .status-pill.active {
+      background: rgba(0, 135, 121, 0.25);
+      border: 1px solid var(--neon-lime);
+      color: var(--neon-lime);
+    }
+
+    .status-pill.deleted {
+      background: rgba(199, 36, 43, 0.25);
+      border: 1px solid var(--saul-crimson);
+      color: #FFD5D7;
+    }
+
+    .record-meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .meta-item {
+      background: var(--card-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 9px 11px;
+    }
+
+    .meta-label {
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      color: var(--ink-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .meta-value {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--ink-cream);
+      margin-top: 2px;
+    }
+
+    .voluntary-details {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .voluntary-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .voluntary-key {
+      color: var(--ink-ochre);
+      font-weight: 700;
+      min-width: 110px;
+    }
+
+    .voluntary-val { color: var(--ink-cream); }
+
+    .record-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .btn-delete-request {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 15px;
+      border-radius: 8px;
+      border: 1.5px solid var(--ink-cream);
+      background: var(--saul-crimson);
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      box-shadow: 3px 3px 0px #000000;
+    }
+
+    .btn-delete-request:hover { background: var(--saul-crimson-hover); }
+
+    .empty-state {
+      text-align: center;
+      padding: 36px 20px;
+      background: var(--card-surface);
+      border: 2px dashed var(--border-subtle);
+      border-radius: var(--radius-md);
+      color: var(--ink-muted);
+      font-size: 14.5px;
+    }
+
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.78);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .modal-box {
+      width: 100%;
+      max-width: 500px;
+      background: var(--card-surface);
+      border: 2px solid var(--saul-crimson);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      box-shadow: 7px 7px 0px #000000;
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .modal-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 20px;
+      color: var(--ink-cream);
+    }
+
+    .modal-body p {
+      font-size: 13.5px;
+      color: var(--ink-cream);
+      margin-bottom: 10px;
+    }
+
+    .modal-cert-highlight {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--ink-ochre);
+      font-weight: 700;
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .btn-cancel {
+      padding: 9px 15px;
+      border-radius: 8px;
+      border: 1.5px solid var(--border-subtle);
+      background: var(--card-elevated);
+      color: var(--ink-cream);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .btn-confirm-delete {
+      padding: 9px 16px;
+      border-radius: 8px;
+      border: 1.5px solid var(--ink-cream);
+      background: var(--saul-crimson);
+      color: #FFFFFF;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 3px 3px 0px #000000;
+    }
+
+    footer {
+      border-top: 2px solid var(--border-subtle);
+      background: rgba(14, 15, 18, 0.92);
+      padding: 22px 20px;
+      text-align: center;
+      color: var(--ink-muted);
+      font-size: 12.5px;
+    }
+
+    .footer-stamp {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--ink-ochre);
+      margin-bottom: 6px;
+      letter-spacing: 0.8px;
+    }
+
+    .footer-links {
+      margin: 8px 0;
+    }
+
+    .footer-links a {
+      color: var(--ink-ochre);
+      text-decoration: none;
+      margin: 0 8px;
+      font-weight: 600;
+    }
+
+    .footer-links a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand-group">
+      <div class="brand-stamp">#ABHIKISM</div>
+      <div>
+        <div class="brand-title">USER DATA &amp; PRIVACY PORTAL</div>
+        <div class="brand-subtitle">users.abhikism.com • ডেটা অ্যাক্সেস ও প্রত্যাহার</div>
+      </div>
+    </div>
+    <nav class="nav-links" aria-label="Ecosystem Navigation">
+      <button type="button" class="nav-link" id="portal-theme-toggle" onclick="togglePortalContrast()">◐ High-Contrast</button>
+      <a href="https://abhikism.com/" class="nav-link">🏠 abhikism.com</a>
+      <a href="https://songs.abhikism.com/" class="nav-link">🎵 Songs</a>
+      <a href="https://games.abhikism.com/" class="nav-link">🎮 Games Arcade</a>
+      <a href="https://games.abhikism.com/daakbaksher-gaan/" class="nav-link">📮 Play Game</a>
+      <a href="https://users.abhikism.com/" class="nav-link active">👤 Users Portal</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="portal-hero">
+      <span class="hero-kicker">🛡️ Zero-Trust Privacy Architecture • v8.0.0</span>
+      <h1>Your Gameplay Data Sovereignty</h1>
+      <p>Verify, review, or instantly soft-delete your gameplay certificates, leaderboard rankings, and voluntary feedback across every #ABHIKISM interactive game.</p>
+      <div class="trust-strip">
+        <div class="trust-pill">
+          <strong>🔐 TWO-FACTOR OWNERSHIP</strong>
+          Cloud self-service requires both your private Certificate ID and matching @username.
+        </div>
+        <div class="trust-pill">
+          <strong>🚫 ZERO PII OVER THE WIRE</strong>
+          Personal email &amp; phone fields are never returned by public or cloud lookup endpoints.
+        </div>
+        <div class="trust-pill">
+          <strong>⚡ INSTANT REMOVAL</strong>
+          Soft deletion immediately removes your score from all live leaderboards &amp; active logs.
+        </div>
+      </div>
+    </div>
+
+    <div id="portal-banner" class="banner"></div>
+
+    <div class="search-card">
+      <div class="tabs-nav">
+        <button type="button" class="tab-btn active" id="tab-btn-cloud" onclick="switchQueryMode('cloud_cert')">
+          🛡️ Certificate ID + Username (Live Cloud)
+        </button>
+        <button type="button" class="tab-btn" id="tab-btn-ident" onclick="switchQueryMode('identifier')">
+          ✉️ Search by Email / Phone
+        </button>
+        <button type="button" class="tab-btn" id="tab-btn-account" onclick="switchQueryMode('account')">
+          👤 Account Login
+        </button>
+      </div>
+
+      <!-- Mode 0 (Live Cloud Default): Verify via Private Certificate ID + Matching Username -->
+      <div id="tab-content-cloud" class="tab-content active">
+        <form id="form-cloud-cert-lookup" onsubmit="event.preventDefault(); handleCloudCertLookup(event); return false;">
+          <input type="text" name="_hp_check" id="hp-cloud" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="lookup-cert-id-input">Private Certificate ID</label>
+              <input type="text" class="form-input" id="lookup-cert-id-input" name="certificate_id" placeholder="e.g. DBG-K8M4X9P2" required autocomplete="off">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lookup-cloud-user-input">Matching @Username</label>
+              <input type="text" class="form-input" id="lookup-cloud-user-input" name="username" placeholder="e.g. @listener_v8" required autocomplete="username">
+            </div>
+          </div>
+          <div class="form-hint" style="margin-bottom:16px;">Your Certificate ID is printed exclusively on your 9:16 Listener Certificate and never exposed publicly on leaderboards.</div>
+          <button type="submit" class="btn-submit" id="btn-submit-cloud">
+            <span>Verify Ownership &amp; View Record</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Mode 1: Search by Email / Phone (Local Server Mode) -->
+      <div id="tab-content-ident" class="tab-content">
+        <form id="form-identifier-lookup" onsubmit="event.preventDefault(); handleLookup(event, 'identifier'); return false;">
+          <input type="text" name="_hp_check" id="hp-ident" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form-group">
+            <label class="form-label" for="lookup-ident-input">Email Address or Phone / WhatsApp</label>
+            <input type="text" class="form-input" id="lookup-ident-input" name="identifier" placeholder="e.g. listener@example.com or +91 98765 43210" required autocomplete="email">
+            <div class="form-hint">For your privacy, email/phone lookup is active only on local server sessions. On public web (users.abhikism.com), please use the Certificate ID + Username tab so personal contact details can never be queried remotely.</div>
+          </div>
+          <button type="submit" class="btn-submit" id="btn-submit-ident">
+            <span>Look Up Submitted Records</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Mode 2: Search by Username & Password -->
+      <div id="tab-content-account" class="tab-content">
+        <form id="form-account-lookup" onsubmit="event.preventDefault(); handleLookup(event, 'account'); return false;">
+          <input type="text" name="_hp_check" id="hp-account" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="lookup-username-input">Account Username</label>
+              <input type="text" class="form-input" id="lookup-username-input" name="username" placeholder="e.g. listener_v8" required autocomplete="username">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lookup-password-input">Account Password</label>
+              <input type="password" class="form-input" id="lookup-password-input" name="password" placeholder="••••••••" required autocomplete="current-password">
+            </div>
+          </div>
+          <div class="form-hint" style="margin-bottom:16px;">Sign in with your game account credentials (supported on server sessions; use Certificate ID + Username on public cloud).</div>
+          <button type="submit" class="btn-submit" id="btn-submit-account">
+            <span>Authenticate &amp; View Records</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div id="results-section" style="display:none;">
+      <div class="results-header">
+        <h2 class="results-title">Active Records</h2>
+        <span class="results-count" id="results-count-badge">0 Found</span>
+      </div>
+      <div class="records-grid" id="records-container"></div>
+    </div>
+
+    <div id="empty-state" class="empty-state" style="display:none;">
+      No active gameplay or certificate records found for the queried credentials.
+    </div>
+  </main>
+
+  <div id="delete-modal" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title">⚠️ Confirm Data Deletion</h3>
+      </div>
+      <div class="modal-body">
+        <p>You are requesting soft deletion for Certificate ID: <span class="modal-cert-highlight" id="modal-cert-id">DBG-XXXX</span></p>
+        <ul style="margin-left: 20px; margin-bottom: 12px; font-size: 13px; color: var(--ink-muted);">
+          <li>Marks this record as <strong style="color:var(--ink-cream);">deleted</strong> across the game leaderboard and voluntary data records.</li>
+          <li>Immediately removes your entry from the <strong style="color:var(--ink-cream);">Official Public Leaderboard</strong>.</li>
+          <li>Excludes your social handle and gameplay telemetry from all active views.</li>
+        </ul>
+        <div class="form-group" style="margin-top: 14px;">
+          <label class="form-label" for="modal-delete-reason">Reason for Deletion (Optional):</label>
+          <input type="text" class="form-input" id="modal-delete-reason" placeholder="e.g. User requested removal from public views" value="User requested soft deletion via users.abhikism.com">
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn-cancel" onclick="closeDeleteModal()">Cancel</button>
+        <button type="button" class="btn-confirm-delete" id="btn-confirm-delete" onclick="executeSoftDeletion()">Confirm Deletion</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-stamp">#ABHIKISM PROTOCOL • USERS.ABHIKISM.COM</div>
+    <div class="footer-links">
+      <a href="https://abhikism.com/">abhikism.com</a> •
+      <a href="https://songs.abhikism.com/">songs.abhikism.com</a> •
+      <a href="https://games.abhikism.com/">games.abhikism.com</a> •
+      <a href="https://users.abhikism.com/">users.abhikism.com</a>
+    </div>
+    <p>User Data Sovereignty &amp; Soft Deletion Architecture • Zero Third-Party Tracker Exposure</p>
+    <p style="margin-top: 4px; font-size: 11.5px;">© 2026 #ABHIKISM. All rights reserved. Music, Lyrics &amp; Code Grounded.</p>
+  </footer>
+
+  <script>
+    const USERS_CLOUD_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwETZpwdI0c7xguhbsMv27F-86LKlXi9xnH4WtC1WLROeUCzqhV_2ONZtIrU0lXWA_1Xw/exec";
+
+    let activeQueryMode = 'cloud_cert';
+    let currentSearchIdent = '';
+    let currentCloudUsername = '';
+    let currentSearchRecords = [];
+    let pendingDeletionCertId = '';
+    let lastLookupSource = 'cloud';
+
+    (function initPortalThemeAndMode() {
+      try {
+        const saved = localStorage.getItem('abhikism_dbg_theme_mode');
+        const btn = document.getElementById('portal-theme-toggle');
+        if (saved === 'high-contrast') {
+          document.body.classList.add('theme-high-contrast');
+          if (btn) btn.textContent = '🌑 Classic Noir';
+        }
+        const host = (window.location.hostname || '').toLowerCase();
+        if (host === '127.0.0.1' || host === 'localhost') {
+          switchQueryMode('identifier');
+        }
+      } catch (_) {}
+    })();
+
+    function togglePortalContrast() {
+      const hc = document.body.classList.toggle('theme-high-contrast');
+      try { localStorage.setItem('abhikism_dbg_theme_mode', hc ? 'high-contrast' : 'classic-noir'); } catch (_) {}
+      const btn = document.getElementById('portal-theme-toggle');
+      if (btn) btn.textContent = hc ? '🌑 Classic Noir' : '◐ High-Contrast';
+    }
+
+    function escapeHtml(raw) {
+      return String(raw ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function switchQueryMode(mode) {
+      activeQueryMode = mode;
+      const map = {
+        cloud_cert: ['tab-btn-cloud', 'tab-content-cloud'],
+        identifier: ['tab-btn-ident', 'tab-content-ident'],
+        account: ['tab-btn-account', 'tab-content-account']
+      };
+      Object.keys(map).forEach(k => {
+        const [bId, cId] = map[k];
+        const b = document.getElementById(bId);
+        const c = document.getElementById(cId);
+        if (b) b.classList.toggle('active', k === mode);
+        if (c) c.classList.toggle('active', k === mode);
+      });
+      hideBanner();
+    }
+
+    function showBanner(type, message) {
+      const banner = document.getElementById('portal-banner');
+      banner.className = 'banner ' + type;
+      banner.textContent = message;
+      banner.style.display = 'block';
+    }
+
+    function hideBanner() {
+      const banner = document.getElementById('portal-banner');
+      banner.style.display = 'none';
+      banner.textContent = '';
+    }
+
+    async function handleCloudCertLookup(event) {
+      event.preventDefault();
+      hideBanner();
+      const certId = (document.getElementById('lookup-cert-id-input')?.value || '').trim();
+      const uname = (document.getElementById('lookup-cloud-user-input')?.value || '').trim().replace(/^@+/, '');
+      const hpCheck = (document.getElementById('hp-cloud')?.value || '').trim();
+      const btn = document.getElementById('btn-submit-cloud');
+      if (!certId || !uname) {
+        showBanner('error', 'Please enter both your Certificate ID and matching @username.');
+        return;
+      }
+      currentSearchIdent = certId;
+      currentCloudUsername = uname;
+      lastLookupSource = 'cloud';
+      btn.disabled = true;
+      btn.querySelector('span').textContent = 'Verifying...';
+      try {
+        const resp = await fetch(USERS_CLOUD_WEBHOOK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify({
+            action: 'user_self_lookup',
+            certificate_id: certId,
+            username: uname,
+            _hp_check: hpCheck
+          })
+        });
+        const data = await resp.json().catch(() => null);
+        if (!data || data.status === 'ERROR' || data.status === 'RATE_LIMITED' || data.status === 'REJECTED_BOT') {
+          showBanner('error', (data && data.message) ? data.message : 'Unable to verify certificate record.');
+          return;
+        }
+        currentSearchRecords = Array.isArray(data.records) ? data.records : [];
+        renderRecords(currentSearchRecords);
+        if (currentSearchRecords.length === 0) {
+          showBanner('info', data.message || 'No active record matched that Certificate ID and @username.');
+        } else {
+          showBanner('success', `Verified ${currentSearchRecords.length} active cloud record(s).`);
+        }
+      } catch (err) {
+        showBanner('error', 'Network error reaching the cloud privacy endpoint. Please retry.');
+      } finally {
+        btn.disabled = false;
+        btn.querySelector('span').textContent = 'Verify Ownership & View Record';
+      }
+    }
+
+    async function handleLookup(event, mode) {
+      event.preventDefault();
+      hideBanner();
+      let ident = '';
+      let password = '';
+      let hpCheck = '';
+      let submitBtn = null;
+      if (mode === 'identifier') {
+        ident = document.getElementById('lookup-ident-input').value.trim();
+        hpCheck = document.getElementById('hp-ident').value.trim();
+        submitBtn = document.getElementById('btn-submit-ident');
+      } else {
+        ident = document.getElementById('lookup-username-input').value.trim();
+        password = document.getElementById('lookup-password-input').value;
+        hpCheck = document.getElementById('hp-account').value.trim();
+        submitBtn = document.getElementById('btn-submit-account');
+      }
+      if (!ident) {
+        showBanner('error', 'Please enter a valid identifier.');
+        return;
+      }
+      currentSearchIdent = ident;
+      lastLookupSource = 'server';
+      submitBtn.disabled = true;
+      submitBtn.querySelector('span').textContent = 'Searching...';
+      try {
+        const resp = await fetch('/api/user-portal/lookup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            identifier: ident,
+            query_mode: mode,
+            password: password,
+            _hp_check: hpCheck
+          })
+        });
+        const data = await resp.json().catch(() => null);
+        if (!data) {
+          showBanner('info', 'On the public web (users.abhikism.com), please use the "Certificate ID + Username (Live Cloud)" tab so your email/phone cannot be probed remotely.');
+          return;
+        }
+        if (resp.status === 400 && data.status === 'REJECTED_BOT') {
+          showBanner('error', 'Automated request rejected.');
+          return;
+        }
+        if (resp.status === 401 || data.status === 'AUTH_REQUIRED') {
+          showBanner('error', data.message || 'Authentication failed. Please verify your credentials.');
+          return;
+        }
+        if (!resp.ok && data.status !== 'SUCCESS') {
+          showBanner('error', data.message || 'Failed to retrieve records.');
+          return;
+        }
+        currentSearchRecords = data.records || [];
+        renderRecords(currentSearchRecords);
+        if (currentSearchRecords.length === 0) {
+          showBanner('info', data.message || 'No active records found for this identifier.');
+        } else {
+          showBanner('success', `Successfully retrieved ${currentSearchRecords.length} active record(s).`);
+        }
+      } catch (err) {
+        showBanner('info', 'Local server API is unavailable on this host — switch to the "Certificate ID + Username (Live Cloud)" tab to verify and manage your cloud records.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.querySelector('span').textContent = (mode === 'identifier')
+          ? 'Look Up Submitted Records'
+          : 'Authenticate & View Records';
+      }
+    }
+
+    function renderRecords(records) {
+      const resultsSection = document.getElementById('results-section');
+      const recordsContainer = document.getElementById('records-container');
+      const countBadge = document.getElementById('results-count-badge');
+      const emptyState = document.getElementById('empty-state');
+      recordsContainer.innerHTML = '';
+      if (!records || records.length === 0) {
+        resultsSection.style.display = 'none';
+        emptyState.style.display = 'block';
+        return;
+      }
+      emptyState.style.display = 'none';
+      resultsSection.style.display = 'block';
+      countBadge.textContent = `${records.length} Active Record${records.length > 1 ? 's' : ''}`;
+
+      records.forEach(rec => {
+        const card = document.createElement('div');
+        card.className = 'record-card';
+        card.id = `card-${rec.certificate_id}`;
+        const isDeleted = (rec.status === 'deleted' || rec.status === 'deactivated');
+        const formattedDate = rec.timestamp_utc ? new Date(rec.timestamp_utc).toLocaleString() : 'N/A';
+        const socialDisplay = rec.social_handle || rec.social_link || 'Provided';
+        card.innerHTML = `
+          <div class="record-top">
+            <div class="cert-id-group">
+              <span class="cert-badge">${escapeHtml(rec.certificate_id || 'N/A')}</span>
+              <button type="button" class="copy-btn" onclick="copyCertId('${escapeHtml(rec.certificate_id)}')">Copy ID</button>
+              ${rec.game_title ? `<span style="font-size:12px;color:var(--ink-muted);">🎮 ${escapeHtml(rec.game_title)}</span>` : ''}
+            </div>
+            <span class="status-pill ${isDeleted ? 'deleted' : 'active'}">${isDeleted ? 'DELETED' : 'ACTIVE'}</span>
+          </div>
+          <div class="record-meta-grid">
+            <div class="meta-item"><div class="meta-label">Date Submitted</div><div class="meta-value" style="font-size:11.5px;">${escapeHtml(formattedDate)}</div></div>
+            <div class="meta-item"><div class="meta-label">Score &amp; Level</div><div class="meta-value">${escapeHtml(String(rec.score || 0))} PTS (Lv ${escapeHtml(String(rec.level || 1))})</div></div>
+            <div class="meta-item"><div class="meta-label">Completion Time</div><div class="meta-value">${escapeHtml(rec.completion_time_formatted || '00:00.0')}</div></div>
+            <div class="meta-item"><div class="meta-label">Words Collected</div><div class="meta-value">${escapeHtml(String(rec.words_collected || 0))}/${escapeHtml(String(rec.target_words || 5))}</div></div>
+            <div class="meta-item"><div class="meta-label">Game Version</div><div class="meta-value">${escapeHtml(rec.game_version || 'v8.0.0')}</div></div>
+            <div class="meta-item"><div class="meta-label">Account / Player</div><div class="meta-value">@${escapeHtml(String(rec.username || 'guest').replace(/^@+/, ''))}</div></div>
+          </div>
+          <div class="voluntary-details">
+            ${rec.social_platform ? `<div class="voluntary-row"><span class="voluntary-key">Social:</span><span class="voluntary-val">${escapeHtml(rec.social_platform)} (${escapeHtml(socialDisplay)})</span></div>` : ''}
+            ${rec.voluntary_name ? `<div class="voluntary-row"><span class="voluntary-key">Name:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_name)}</span></div>` : ''}
+            ${rec.voluntary_email ? `<div class="voluntary-row"><span class="voluntary-key">Email:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_email)}</span></div>` : ''}
+            ${rec.voluntary_phone ? `<div class="voluntary-row"><span class="voluntary-key">Phone:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_phone)}</span></div>` : ''}
+            ${rec.has_voluntary_info ? `<div class="voluntary-row"><span class="voluntary-key">Voluntary Info:</span><span class="voluntary-val">Stored privately on server (Email: ${rec.has_voluntary_email ? 'On file' : 'None'}, Phone: ${rec.has_voluntary_phone ? 'On file' : 'None'}) — hidden from public wire</span></div>` : ''}
+            ${rec.voluntary_location ? `<div class="voluntary-row"><span class="voluntary-key">Location:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_location)}</span></div>` : ''}
+            ${rec.voluntary_favorite_song ? `<div class="voluntary-row"><span class="voluntary-key">Favorite Song:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_favorite_song)}</span></div>` : ''}
+            ${rec.voluntary_message ? `<div class="voluntary-row"><span class="voluntary-key">Note:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_message)}</span></div>` : ''}
+          </div>
+          ${!isDeleted ? `
+            <div class="record-actions">
+              <button type="button" class="btn-delete-request" onclick="openDeleteModal('${escapeHtml(rec.certificate_id)}')">
+                🗑️ Request Data Deletion
+              </button>
+            </div>
+          ` : ''}
+        `;
+        recordsContainer.appendChild(card);
+      });
+    }
+
+    function openDeleteModal(certId) {
+      pendingDeletionCertId = certId;
+      document.getElementById('modal-cert-id').textContent = certId;
+      document.getElementById('delete-modal').style.display = 'flex';
+    }
+
+    function closeDeleteModal() {
+      pendingDeletionCertId = '';
+      document.getElementById('delete-modal').style.display = 'none';
+    }
+
+    async function executeSoftDeletion() {
+      if (!pendingDeletionCertId) return;
+      const certId = pendingDeletionCertId;
+      const reason = document.getElementById('modal-delete-reason').value.trim();
+      const confirmBtn = document.getElementById('btn-confirm-delete');
+      confirmBtn.disabled = true;
+      confirmBtn.textContent = 'Processing...';
+      try {
+        let ok = false;
+        let msg = '';
+        if (lastLookupSource === 'cloud') {
+          const resp = await fetch(USERS_CLOUD_WEBHOOK_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify({
+              action: 'user_self_delete',
+              certificate_id: certId,
+              username: currentCloudUsername,
+              confirmation: true,
+              reason: reason,
+              _hp_check: ''
+            })
+          });
+          const data = await resp.json().catch(() => null);
+          ok = Boolean(data && data.status === 'SUCCESS');
+          msg = (data && data.message) ? data.message : 'Unable to delete record.';
+        } else {
+          const resp = await fetch('/api/user-portal/delete', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              certificate_id: certId,
+              identifier: currentSearchIdent,
+              confirmation: true,
+              reason: reason,
+              _hp_check: ''
+            })
+          });
+          const data = await resp.json().catch(() => null);
+          ok = Boolean(resp.ok && data && data.status === 'SUCCESS');
+          msg = (data && data.message) ? data.message : 'Unable to delete record.';
+        }
+
+        if (ok) {
+          closeDeleteModal();
+          showBanner('success', `Certificate record ${certId} has been marked as deleted and removed from active views and live leaderboards.`);
+          const card = document.getElementById(`card-${certId}`);
+          if (card) card.remove();
+          currentSearchRecords = currentSearchRecords.filter(r => r.certificate_id !== certId);
+          renderRecords(currentSearchRecords);
+        } else {
+          showBanner('error', 'Deletion error: ' + msg);
+          closeDeleteModal();
+        }
+      } catch (err) {
+        showBanner('error', 'Network error communicating with deletion service.');
+        closeDeleteModal();
+      } finally {
+        confirmBtn.disabled = false;
+        confirmBtn.textContent = 'Confirm Deletion';
+      }
+    }
+
+    function copyCertId(certId) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(certId).then(() => showBanner('info', `Copied Certificate ID: ${certId}`)).catch(() => {});
+      }
+    }
+  </script>
+</body>
+</html>
