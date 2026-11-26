@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>User Data & Privacy Portal — #ABHIKISM (users.abhikism.com)</title>
-  <meta name="description" content="Official #ABHIKISM Member Data Sovereignty & Privacy Portal (users.abhikism.com). Verify your gameplay certificate records across all #ABHIKISM interactive games and exercise instant self-service data removal.">
+  <meta name="description" content="Official #ABHIKISM Member Account, Leaderboard & Data Sovereignty Portal (users.abhikism.com). Sign in with your username and email — no certificate required — browse the official leaderboard, manage game update preferences, and control your gameplay records.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://users.abhikism.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="#ABHIKISM">
   <meta property="og:title" content="User Data &amp; Privacy Portal — #ABHIKISM (users.abhikism.com)">
-  <meta property="og:description" content="Verify your gameplay records and exercise instant self-service soft deletion across #ABHIKISM interactive games and leaderboards.">
+  <meta property="og:description" content="Sign in with your username and email to view the Official Leaderboard, stay notified about upcoming #ABHIKISM games, and manage your gameplay data.">
   <meta property="og:url" content="https://users.abhikism.com/">
   <meta property="og:image" content="https://songs.abhikism.com/assets/artworks/daakbaksher-gaan.webp">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="User Data &amp; Privacy Portal — #ABHIKISM">
-  <meta name="twitter:description" content="Self-service gameplay record verification and data deletion across #ABHIKISM interactive games.">
+  <meta name="twitter:description" content="Member login, zero-PII official leaderboard, game update notifications, and self-service data control across #ABHIKISM interactive games.">
   <meta name="twitter:image" content="https://songs.abhikism.com/assets/artworks/daakbaksher-gaan.webp">
   <script type="application/ld+json">
   {
@@ -25,7 +25,7 @@
         "@type": "WebPage",
         "name": "User Data & Privacy Portal — #ABHIKISM",
         "url": "https://users.abhikism.com/",
-        "description": "Self-service player privacy portal for reviewing and soft-deleting gameplay records across #ABHIKISM interactive song games.",
+        "description": "Official #ABHIKISM member account, public leaderboard, and self-service player privacy portal across all interactive song games.",
         "isPartOf": {
           "@type": "WebSite",
           "name": "#ABHIKISM",
@@ -98,7 +98,7 @@
     header {
       background: rgba(14, 15, 18, 0.96);
       border-bottom: 3px solid var(--saul-crimson);
-      padding: 14px 24px;
+      padding: 14px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -107,14 +107,9 @@
       position: sticky;
       top: 0;
       z-index: 40;
-      backdrop-filter: blur(8px);
     }
 
-    .brand-group {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
+    .brand-group { display: flex; align-items: center; gap: 12px; }
 
     .brand-stamp {
       background: var(--saul-crimson);
@@ -143,12 +138,7 @@
       font-family: 'Noto Serif Bengali', serif;
     }
 
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
+    .nav-links { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 
     .nav-link {
       font-size: 12px;
@@ -179,9 +169,9 @@
 
     main {
       width: 100%;
-      max-width: 860px;
+      max-width: 900px;
       margin: 0 auto;
-      padding: 34px 20px 56px 20px;
+      padding: 30px 18px 56px 18px;
       flex: 1;
     }
 
@@ -189,8 +179,8 @@
       background: var(--card-surface);
       border: 2px solid var(--saul-crimson);
       border-radius: var(--radius-md);
-      padding: 26px 24px;
-      margin-bottom: 24px;
+      padding: 24px 22px;
+      margin-bottom: 22px;
       box-shadow: 6px 6px 0px var(--saul-crimson);
     }
 
@@ -210,18 +200,14 @@
 
     .portal-hero h1 {
       font-family: 'Syne', sans-serif;
-      font-size: 28px;
+      font-size: 27px;
       font-weight: 800;
       color: var(--ink-cream);
       margin-bottom: 8px;
       line-height: 1.15;
     }
 
-    .portal-hero p {
-      color: var(--ink-muted);
-      font-size: 14.5px;
-      max-width: 680px;
-    }
+    .portal-hero p { color: var(--ink-muted); font-size: 14.5px; max-width: 720px; }
 
     .trust-strip {
       display: grid;
@@ -257,37 +243,23 @@
       border: 1.5px solid var(--border-subtle);
     }
 
-    .banner.success {
-      background: rgba(0, 135, 121, 0.22);
-      border-color: var(--neon-lime);
-      color: var(--neon-lime);
-    }
-
-    .banner.error {
-      background: rgba(199, 36, 43, 0.22);
-      border-color: var(--saul-crimson);
-      color: #FFD5D7;
-    }
-
-    .banner.info {
-      background: rgba(229, 207, 152, 0.14);
-      border-color: var(--ink-ochre);
-      color: var(--ink-ochre);
-    }
+    .banner.success { background: rgba(0, 135, 121, 0.22); border-color: var(--neon-lime); color: var(--neon-lime); }
+    .banner.error { background: rgba(199, 36, 43, 0.22); border-color: var(--saul-crimson); color: #FFD5D7; }
+    .banner.info { background: rgba(229, 207, 152, 0.14); border-color: var(--ink-ochre); color: var(--ink-ochre); }
 
     .search-card {
       background: var(--card-surface);
       border: 2px solid var(--border-subtle);
       border-radius: var(--radius-md);
-      padding: 22px;
+      padding: 20px;
       box-shadow: var(--shadow-hard);
-      margin-bottom: 26px;
+      margin-bottom: 24px;
     }
 
     .tabs-nav {
       display: flex;
       gap: 8px;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
       flex-wrap: wrap;
       border-bottom: 1.5px solid var(--border-subtle);
       padding-bottom: 12px;
@@ -297,7 +269,7 @@
       display: inline-flex;
       align-items: center;
       gap: 7px;
-      padding: 9px 14px;
+      padding: 9px 13px;
       border-radius: 8px;
       border: 1.5px solid var(--border-subtle);
       background: var(--card-elevated);
@@ -309,10 +281,7 @@
       transition: all 0.15s ease;
     }
 
-    .tab-btn:hover {
-      border-color: var(--ink-ochre);
-      color: var(--ink-cream);
-    }
+    .tab-btn:hover { border-color: var(--ink-ochre); color: var(--ink-cream); }
 
     .tab-btn.active {
       background: var(--saul-crimson);
@@ -326,32 +295,32 @@
 
     .form-grid-2 {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
     }
 
     .form-group { margin-bottom: 14px; }
 
     .form-label {
       display: block;
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 700;
       color: var(--ink-ochre);
       font-family: 'JetBrains Mono', monospace;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
       text-transform: uppercase;
       letter-spacing: 0.4px;
     }
 
     .form-input {
       width: 100%;
-      padding: 11px 13px;
+      padding: 10px 12px;
       border-radius: 8px;
       border: 1.5px solid var(--border-subtle);
       background: #0E0F12;
       color: var(--ink-cream);
       font-family: 'JetBrains Mono', monospace;
-      font-size: 13.5px;
+      font-size: 13px;
       outline: none;
     }
 
@@ -360,52 +329,141 @@
       box-shadow: 0 0 0 2px rgba(229, 207, 152, 0.2);
     }
 
-    .form-hint {
-      font-size: 12px;
-      color: var(--ink-muted);
-      margin-top: 6px;
+    .form-hint { font-size: 12px; color: var(--ink-muted); margin-top: 6px; }
+
+    .checkbox-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: var(--card-elevated);
+      border: 1px solid var(--border-subtle);
+      margin-bottom: 14px;
+      font-size: 12.5px;
+      color: var(--ink-cream);
+      cursor: pointer;
     }
+
+    .checkbox-row input { margin-top: 3px; accent-color: var(--saul-crimson); }
+
+    .btn-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 
     .btn-submit {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
-      padding: 11px 20px;
+      padding: 10px 18px;
       border-radius: 9px;
       border: 1.5px solid var(--ink-cream);
       background: var(--teal-primary);
       color: #FFFFFF;
       font-family: inherit;
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 700;
       cursor: pointer;
       box-shadow: 3px 3px 0px #000000;
       transition: transform 0.15s ease, background 0.15s ease;
+      text-decoration: none;
     }
 
-    .btn-submit:hover {
-      background: #00A392;
-      transform: translate(-1px, -1px);
+    .btn-submit:hover { background: #00A392; transform: translate(-1px, -1px); }
+    .btn-submit.crimson { background: var(--saul-crimson); }
+    .btn-submit.crimson:hover { background: var(--saul-crimson-hover); }
+    .btn-submit.secondary { background: var(--card-elevated); border-color: var(--border-subtle); }
+    .btn-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    .member-bar {
+      background: rgba(0, 135, 121, 0.16);
+      border: 2px solid var(--teal-primary);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      margin-bottom: 22px;
+      display: none;
     }
 
-    .btn-submit:disabled {
-      opacity: 0.6;
-      cursor: not-allowed;
-    }
-
-    .results-header {
+    .member-bar-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .member-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--neon-lime);
+    }
+
+    .member-meta-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      border-top: 1px dashed rgba(245, 239, 225, 0.2);
+      font-size: 12.5px;
+      color: var(--ink-cream);
+    }
+
+    .lb-section {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-hard);
+      margin-top: 24px;
+      display: none;
+    }
+
+    .lb-privacy-note {
+      font-size: 11.5px;
+      color: var(--ink-muted);
+      background: #0E0F12;
+      border: 1px solid var(--border-subtle);
+      border-radius: 7px;
+      padding: 8px 12px;
       margin-bottom: 14px;
     }
 
-    .results-title {
-      font-family: 'Syne', sans-serif;
-      font-size: 20px;
+    .lb-rows { display: flex; flex-direction: column; gap: 9px; max-height: 440px; overflow-y: auto; }
+
+    .lb-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 11px 14px;
+      background: var(--card-elevated);
+      border: 1.5px solid var(--border-subtle);
+      border-radius: 9px;
+    }
+
+    .lb-row.winner { border-color: var(--saul-crimson); }
+
+    .lb-tags { display: flex; gap: 6px; flex-wrap: wrap; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+
+    .lb-tag {
+      padding: 3px 8px;
+      border-radius: 5px;
+      background: #0E0F12;
+      border: 1px solid var(--border-subtle);
       color: var(--ink-cream);
     }
+
+    .lb-tag.score { background: var(--teal-primary); border-color: var(--ink-cream); color: #FFFFFF; font-weight: 700; }
+
+    .results-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+    .results-title { font-family: 'Syne', sans-serif; font-size: 20px; color: var(--ink-cream); }
 
     .results-count {
       font-family: 'JetBrains Mono', monospace;
@@ -417,11 +475,7 @@
       color: var(--ink-ochre);
     }
 
-    .records-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
+    .records-grid { display: flex; flex-direction: column; gap: 16px; }
 
     .record-card {
       background: var(--card-surface);
@@ -442,12 +496,7 @@
       border-bottom: 1px solid var(--border-subtle);
     }
 
-    .cert-id-group {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
+    .cert-id-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 
     .cert-badge {
       font-family: 'JetBrains Mono', monospace;
@@ -471,84 +520,21 @@
       cursor: pointer;
     }
 
-    .status-pill {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      font-weight: 700;
-      padding: 3px 9px;
-      border-radius: 5px;
-    }
+    .status-pill { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 5px; }
+    .status-pill.active { background: rgba(0, 135, 121, 0.25); border: 1px solid var(--neon-lime); color: var(--neon-lime); }
+    .status-pill.deleted { background: rgba(199, 36, 43, 0.25); border: 1px solid var(--saul-crimson); color: #FFD5D7; }
 
-    .status-pill.active {
-      background: rgba(0, 135, 121, 0.25);
-      border: 1px solid var(--neon-lime);
-      color: var(--neon-lime);
-    }
+    .record-meta-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); gap: 10px; margin-bottom: 14px; }
+    .meta-item { background: var(--card-elevated); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 9px 11px; }
+    .meta-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--ink-muted); font-family: 'JetBrains Mono', monospace; }
+    .meta-value { font-size: 13.5px; font-weight: 700; color: var(--ink-cream); margin-top: 2px; }
 
-    .status-pill.deleted {
-      background: rgba(199, 36, 43, 0.25);
-      border: 1px solid var(--saul-crimson);
-      color: #FFD5D7;
-    }
-
-    .record-meta-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 10px;
-      margin-bottom: 14px;
-    }
-
-    .meta-item {
-      background: var(--card-elevated);
-      border: 1px solid var(--border-subtle);
-      border-radius: 8px;
-      padding: 9px 11px;
-    }
-
-    .meta-label {
-      font-size: 10.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-      color: var(--ink-muted);
-      font-family: 'JetBrains Mono', monospace;
-    }
-
-    .meta-value {
-      font-size: 13.5px;
-      font-weight: 700;
-      color: var(--ink-cream);
-      margin-top: 2px;
-    }
-
-    .voluntary-details {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      font-size: 13px;
-      margin-bottom: 14px;
-    }
-
-    .voluntary-row {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .voluntary-key {
-      color: var(--ink-ochre);
-      font-weight: 700;
-      min-width: 110px;
-    }
-
+    .voluntary-details { display: flex; flex-direction: column; gap: 6px; font-size: 13px; margin-bottom: 14px; }
+    .voluntary-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .voluntary-key { color: var(--ink-ochre); font-weight: 700; min-width: 110px; }
     .voluntary-val { color: var(--ink-cream); }
 
-    .record-actions {
-      display: flex;
-      justify-content: flex-end;
-      gap: 10px;
-      padding-top: 10px;
-      border-top: 1px solid var(--border-subtle);
-    }
+    .record-actions { display: flex; justify-content: flex-end; gap: 10px; padding-top: 10px; border-top: 1px solid var(--border-subtle); }
 
     .btn-delete-request {
       display: inline-flex;
@@ -569,19 +555,19 @@
 
     .empty-state {
       text-align: center;
-      padding: 36px 20px;
+      padding: 28px 18px;
       background: var(--card-surface);
       border: 2px dashed var(--border-subtle);
       border-radius: var(--radius-md);
       color: var(--ink-muted);
-      font-size: 14.5px;
+      font-size: 14px;
     }
 
     .modal-backdrop {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.78);
+      background: rgba(0, 0, 0, 0.82);
       z-index: 100;
       align-items: center;
       justify-content: center;
@@ -598,58 +584,13 @@
       box-shadow: 7px 7px 0px #000000;
     }
 
-    .modal-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 12px;
-    }
-
-    .modal-title {
-      font-family: 'Syne', sans-serif;
-      font-size: 20px;
-      color: var(--ink-cream);
-    }
-
-    .modal-body p {
-      font-size: 13.5px;
-      color: var(--ink-cream);
-      margin-bottom: 10px;
-    }
-
-    .modal-cert-highlight {
-      font-family: 'JetBrains Mono', monospace;
-      color: var(--ink-ochre);
-      font-weight: 700;
-    }
-
-    .modal-actions {
-      display: flex;
-      justify-content: flex-end;
-      gap: 10px;
-      margin-top: 18px;
-    }
-
-    .btn-cancel {
-      padding: 9px 15px;
-      border-radius: 8px;
-      border: 1.5px solid var(--border-subtle);
-      background: var(--card-elevated);
-      color: var(--ink-cream);
-      font-weight: 700;
-      cursor: pointer;
-    }
-
-    .btn-confirm-delete {
-      padding: 9px 16px;
-      border-radius: 8px;
-      border: 1.5px solid var(--ink-cream);
-      background: var(--saul-crimson);
-      color: #FFFFFF;
-      font-weight: 700;
-      cursor: pointer;
-      box-shadow: 3px 3px 0px #000000;
-    }
+    .modal-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+    .modal-title { font-family: 'Syne', sans-serif; font-size: 20px; color: var(--ink-cream); }
+    .modal-body p { font-size: 13.5px; color: var(--ink-cream); margin-bottom: 10px; }
+    .modal-cert-highlight { font-family: 'JetBrains Mono', monospace; color: var(--ink-ochre); font-weight: 700; }
+    .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 18px; }
+    .btn-cancel { padding: 9px 15px; border-radius: 8px; border: 1.5px solid var(--border-subtle); background: var(--card-elevated); color: var(--ink-cream); font-weight: 700; cursor: pointer; }
+    .btn-confirm-delete { padding: 9px 16px; border-radius: 8px; border: 1.5px solid var(--ink-cream); background: var(--saul-crimson); color: #FFFFFF; font-weight: 700; cursor: pointer; box-shadow: 3px 3px 0px #000000; }
 
     footer {
       border-top: 2px solid var(--border-subtle);
@@ -660,27 +601,9 @@
       font-size: 12.5px;
     }
 
-    .footer-stamp {
-      display: inline-block;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--ink-ochre);
-      margin-bottom: 6px;
-      letter-spacing: 0.8px;
-    }
-
-    .footer-links {
-      margin: 8px 0;
-    }
-
-    .footer-links a {
-      color: var(--ink-ochre);
-      text-decoration: none;
-      margin: 0 8px;
-      font-weight: 600;
-    }
-
+    .footer-stamp { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: var(--ink-ochre); margin-bottom: 6px; letter-spacing: 0.8px; }
+    .footer-links { margin: 8px 0; }
+    .footer-links a { color: var(--ink-ochre); text-decoration: none; margin: 0 8px; font-weight: 600; }
     .footer-links a:hover { text-decoration: underline; }
   </style>
 </head>
@@ -691,7 +614,7 @@
       <div class="brand-stamp">#ABHIKISM</div>
       <div>
         <div class="brand-title">USER DATA &amp; PRIVACY PORTAL</div>
-        <div class="brand-subtitle">users.abhikism.com • ডেটা অ্যাক্সেস ও প্রত্যাহার</div>
+        <div class="brand-subtitle">users.abhikism.com • সদস্য অ্যাকাউন্ট ও ডেটা সুরক্ষা</div>
       </div>
     </div>
     <nav class="nav-links" aria-label="Ecosystem Navigation">
@@ -706,42 +629,99 @@
 
   <main>
     <div class="portal-hero">
-      <span class="hero-kicker">🛡️ Zero-Trust Privacy Architecture • v8.0.0</span>
-      <h1>Your Gameplay Data Sovereignty</h1>
-      <p>Verify, review, or instantly soft-delete your gameplay certificates, leaderboard rankings, and voluntary feedback across every #ABHIKISM interactive game.</p>
+      <span class="hero-kicker">🛡️ Member Accounts &amp; Zero-PII Privacy • v8.0.0</span>
+      <h1>Your #ABHIKISM Member Portal</h1>
+      <p>Create an account or sign in with your username and email — even before playing your first game. Browse the Official Leaderboard, receive alerts on new #ABHIKISM games, and manage or delete your own gameplay records anytime.</p>
       <div class="trust-strip">
         <div class="trust-pill">
-          <strong>🔐 TWO-FACTOR OWNERSHIP</strong>
-          Cloud self-service requires both your private Certificate ID and matching @username.
+          <strong>🎮 NO CERTIFICATE NEEDED</strong>
+          Sign in with your @username, email &amp; password anytime — ready for DaakBaksher Gaan and all future games.
         </div>
         <div class="trust-pill">
-          <strong>🚫 ZERO PII OVER THE WIRE</strong>
-          Personal email &amp; phone fields are never returned by public or cloud lookup endpoints.
+          <strong>🚫 ZERO CROSS-USER PII</strong>
+          Logged-in members only see public usernames, handles &amp; scores on the leaderboard — never anyone else's personal info.
         </div>
         <div class="trust-pill">
-          <strong>⚡ INSTANT REMOVAL</strong>
-          Soft deletion immediately removes your score from all live leaderboards &amp; active logs.
+          <strong>⚡ INSTANT DATA CONTROL</strong>
+          Review your own gameplay records, toggle game-update emails, or soft-delete any record in one click.
         </div>
       </div>
     </div>
 
     <div id="portal-banner" class="banner"></div>
 
-    <div class="search-card">
+    <!-- Active Logged-In Member Profile Bar -->
+    <section id="member-profile-bar" class="member-bar" aria-label="Logged-in Member Profile">
+      <div class="member-bar-top">
+        <div>
+          <div class="member-badge">🔓 Signed in as <span id="member-profile-username">@member</span></div>
+          <div style="font-size:12px;color:var(--ink-muted);margin-top:2px;">
+            Email: <code id="member-profile-email" style="color:var(--ink-ochre);">—</code>
+          </div>
+        </div>
+        <div class="btn-row">
+          <a href="https://games.abhikism.com/daakbaksher-gaan/" class="btn-submit crimson" style="padding:7px 13px;font-size:12.5px;">📮 Play DaakBaksher Gaan</a>
+          <button type="button" class="btn-submit secondary" onclick="handleMemberLogout()" style="padding:7px 13px;font-size:12.5px;">🚪 Logout</button>
+        </div>
+      </div>
+      <div class="member-meta-strip">
+        <label style="display:inline-flex;align-items:center;gap:8px;cursor:pointer;">
+          <input type="checkbox" id="member-updates-toggle" checked onchange="handleToggleUpdatesOptIn(this.checked)" style="accent-color:var(--neon-lime);">
+          <span>Email me about #ABHIKISM game updates &amp; upcoming game launches</span>
+        </label>
+        <span id="member-updates-status" style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--neon-lime);"></span>
+      </div>
+    </section>
+
+    <div class="search-card" id="auth-search-card">
       <div class="tabs-nav">
-        <button type="button" class="tab-btn active" id="tab-btn-cloud" onclick="switchQueryMode('cloud_cert')">
-          🛡️ Certificate ID + Username (Live Cloud)
+        <button type="button" class="tab-btn active" id="tab-btn-account" onclick="switchQueryMode('account')">
+          👤 Member Login / Sign Up
+        </button>
+        <button type="button" class="tab-btn" id="tab-btn-cloud" onclick="switchQueryMode('cloud_cert')">
+          🛡️ Certificate ID Lookup
         </button>
         <button type="button" class="tab-btn" id="tab-btn-ident" onclick="switchQueryMode('identifier')">
-          ✉️ Search by Email / Phone
-        </button>
-        <button type="button" class="tab-btn" id="tab-btn-account" onclick="switchQueryMode('account')">
-          👤 Account Login
+          ✉️ Email / Phone Lookup (Local)
         </button>
       </div>
 
-      <!-- Mode 0 (Live Cloud Default): Verify via Private Certificate ID + Matching Username -->
-      <div id="tab-content-cloud" class="tab-content active">
+      <!-- Mode 0 (DEFAULT): Member Login / Registration (Username + Mandatory Email + Password — NO Certificate ID needed!) -->
+      <div id="tab-content-account" class="tab-content active">
+        <form id="form-account-lookup" onsubmit="event.preventDefault(); handleMemberAuth('login'); return false;">
+          <input type="text" name="_hp_check" id="hp-account" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="lookup-username-input">Username *</label>
+              <input type="text" class="form-input" id="lookup-username-input" name="username" placeholder="e.g. listener_v8" required autocomplete="username">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lookup-email-input">Email Address (Required) *</label>
+              <input type="email" class="form-input" id="lookup-email-input" name="email" placeholder="you@example.com" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="lookup-password-input">Password (Min 6 Characters) *</label>
+            <input type="password" class="form-input" id="lookup-password-input" name="password" placeholder="Create or enter your password" required autocomplete="current-password">
+          </div>
+          <label class="checkbox-row" for="lookup-updates-optin">
+            <input type="checkbox" id="lookup-updates-optin" checked>
+            <span>Keep me updated by email about new #ABHIKISM song games, level updates, and special drops. (Your email is kept strictly private and never shown to other players.)</span>
+          </label>
+          <div class="btn-row">
+            <button type="submit" class="btn-submit" id="btn-submit-account">
+              <span>🔓 Sign In to Member Portal</span>
+            </button>
+            <button type="button" class="btn-submit crimson" id="btn-register-account" onclick="handleMemberAuth('register')">
+              <span>✨ Create New Member Account</span>
+            </button>
+          </div>
+          <div class="form-hint">One account works across users.abhikism.com, games.abhikism.com, and DaakBaksher Gaan — no gameplay or certificate required to join or view the leaderboard.</div>
+        </form>
+      </div>
+
+      <!-- Mode 1 (Optional): Verify via Private Certificate ID + Matching Username -->
+      <div id="tab-content-cloud" class="tab-content">
         <form id="form-cloud-cert-lookup" onsubmit="event.preventDefault(); handleCloudCertLookup(event); return false;">
           <input type="text" name="_hp_check" id="hp-cloud" style="display:none" tabindex="-1" autocomplete="off">
           <div class="form-grid-2">
@@ -754,61 +734,56 @@
               <input type="text" class="form-input" id="lookup-cloud-user-input" name="username" placeholder="e.g. @listener_v8" required autocomplete="username">
             </div>
           </div>
-          <div class="form-hint" style="margin-bottom:16px;">Your Certificate ID is printed exclusively on your 9:16 Listener Certificate and never exposed publicly on leaderboards.</div>
+          <div class="form-hint" style="margin-bottom:14px;">Optional quick lookup if you have a 9:16 Listener Certificate ID and want to verify or remove that specific record without logging in.</div>
           <button type="submit" class="btn-submit" id="btn-submit-cloud">
             <span>Verify Ownership &amp; View Record</span>
           </button>
         </form>
       </div>
 
-      <!-- Mode 1: Search by Email / Phone (Local Server Mode) -->
+      <!-- Mode 2: Search by Email / Phone (Local Server Mode) -->
       <div id="tab-content-ident" class="tab-content">
         <form id="form-identifier-lookup" onsubmit="event.preventDefault(); handleLookup(event, 'identifier'); return false;">
           <input type="text" name="_hp_check" id="hp-ident" style="display:none" tabindex="-1" autocomplete="off">
           <div class="form-group">
             <label class="form-label" for="lookup-ident-input">Email Address or Phone / WhatsApp</label>
             <input type="text" class="form-input" id="lookup-ident-input" name="identifier" placeholder="e.g. listener@example.com or +91 98765 43210" required autocomplete="email">
-            <div class="form-hint">For your privacy, email/phone lookup is active only on local server sessions. On public web (users.abhikism.com), please use the Certificate ID + Username tab so personal contact details can never be queried remotely.</div>
+            <div class="form-hint">Direct email/phone lookup is active on local server sessions. On users.abhikism.com, sign in via the Member Login / Sign Up tab above so personal contact details can never be probed without a password.</div>
           </div>
           <button type="submit" class="btn-submit" id="btn-submit-ident">
             <span>Look Up Submitted Records</span>
           </button>
         </form>
       </div>
-
-      <!-- Mode 2: Search by Username & Password -->
-      <div id="tab-content-account" class="tab-content">
-        <form id="form-account-lookup" onsubmit="event.preventDefault(); handleLookup(event, 'account'); return false;">
-          <input type="text" name="_hp_check" id="hp-account" style="display:none" tabindex="-1" autocomplete="off">
-          <div class="form-grid-2">
-            <div class="form-group">
-              <label class="form-label" for="lookup-username-input">Account Username</label>
-              <input type="text" class="form-input" id="lookup-username-input" name="username" placeholder="e.g. listener_v8" required autocomplete="username">
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="lookup-password-input">Account Password</label>
-              <input type="password" class="form-input" id="lookup-password-input" name="password" placeholder="••••••••" required autocomplete="current-password">
-            </div>
-          </div>
-          <div class="form-hint" style="margin-bottom:16px;">Sign in with your game account credentials (supported on server sessions; use Certificate ID + Username on public cloud).</div>
-          <button type="submit" class="btn-submit" id="btn-submit-account">
-            <span>Authenticate &amp; View Records</span>
-          </button>
-        </form>
-      </div>
     </div>
 
+    <!-- Own Active Records Section -->
     <div id="results-section" style="display:none;">
       <div class="results-header">
-        <h2 class="results-title">Active Records</h2>
+        <h2 class="results-title">My Active Gameplay Records</h2>
         <span class="results-count" id="results-count-badge">0 Found</span>
       </div>
       <div class="records-grid" id="records-container"></div>
     </div>
 
     <div id="empty-state" class="empty-state" style="display:none;">
-      No active gameplay or certificate records found for the queried credentials.
+      <div id="empty-state-text">No active gameplay or certificate records found yet.</div>
+      <div style="margin-top:14px;">
+        <a href="https://games.abhikism.com/daakbaksher-gaan/" class="btn-submit crimson" style="padding:8px 16px;font-size:13px;">📮 Play DaakBaksher Gaan Now</a>
+      </div>
     </div>
+
+    <!-- Official Public Leaderboard Section (Visible to any Logged-In Member — Zero Cross-User PII) -->
+    <section id="portal-leaderboard-section" class="lb-section" aria-label="Official Public Leaderboard">
+      <div class="results-header">
+        <h2 class="results-title">🏆 Official Arcade Leaderboard</h2>
+        <span class="results-count" id="portal-lb-count">Syncing...</span>
+      </div>
+      <div class="lb-privacy-note">
+        🛡️ <strong style="color:var(--ink-cream);">Zero-PII Protection:</strong> Displays only public @usernames, public social handles, levels, timings &amp; scores. No emails, phone numbers, real names, cities, or private certificate IDs of other players are ever shown.
+      </div>
+      <div id="portal-lb-rows" class="lb-rows"></div>
+    </section>
   </main>
 
   <div id="delete-modal" class="modal-backdrop">
@@ -849,13 +824,20 @@
 
   <script>
     const USERS_CLOUD_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwETZpwdI0c7xguhbsMv27F-86LKlXi9xnH4WtC1WLROeUCzqhV_2ONZtIrU0lXWA_1Xw/exec";
+    const PORTAL_SESSION_STORAGE_KEY = 'abhikism_users_portal_session_v4';
 
-    let activeQueryMode = 'cloud_cert';
+    let activeQueryMode = 'account';
     let currentSearchIdent = '';
     let currentCloudUsername = '';
     let currentSearchRecords = [];
     let pendingDeletionCertId = '';
-    let lastLookupSource = 'cloud';
+    let lastLookupSource = 'cloud_account';
+    let activeMemberSession = null;
+
+    function isLocalServerHost() {
+      const h = (window.location.hostname || '').toLowerCase();
+      return (h === '127.0.0.1' || h === 'localhost');
+    }
 
     (function initPortalThemeAndMode() {
       try {
@@ -865,9 +847,11 @@
           document.body.classList.add('theme-high-contrast');
           if (btn) btn.textContent = '🌑 Classic Noir';
         }
-        const host = (window.location.hostname || '').toLowerCase();
-        if (host === '127.0.0.1' || host === 'localhost') {
+        if (isLocalServerHost()) {
           switchQueryMode('identifier');
+        } else {
+          switchQueryMode('account');
+          restoreCloudMemberSession();
         }
       } catch (_) {}
     })();
@@ -888,12 +872,16 @@
         .replace(/'/g, '&#39;');
     }
 
+    function isValidEmail(val) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(val || '').trim());
+    }
+
     function switchQueryMode(mode) {
       activeQueryMode = mode;
       const map = {
+        account: ['tab-btn-account', 'tab-content-account'],
         cloud_cert: ['tab-btn-cloud', 'tab-content-cloud'],
-        identifier: ['tab-btn-ident', 'tab-content-ident'],
-        account: ['tab-btn-account', 'tab-content-account']
+        identifier: ['tab-btn-ident', 'tab-content-ident']
       };
       Object.keys(map).forEach(k => {
         const [bId, cId] = map[k];
@@ -918,6 +906,256 @@
       banner.textContent = '';
     }
 
+    async function postCloudJson(payload) {
+      const resp = await fetch(USERS_CLOUD_WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload)
+      });
+      return await resp.json().catch(() => null);
+    }
+
+    async function restoreCloudMemberSession() {
+      try {
+        const raw = sessionStorage.getItem(PORTAL_SESSION_STORAGE_KEY) || localStorage.getItem(PORTAL_SESSION_STORAGE_KEY);
+        if (!raw) return;
+        const parsed = JSON.parse(raw);
+        if (!parsed || !parsed.session_token || !parsed.username) return;
+        const ver = await postCloudJson({ action: 'auth_verify', session_token: parsed.session_token });
+        if (ver && ver.ok && ver.authenticated) {
+          activeMemberSession = {
+            username: ver.username,
+            role: ver.role || 'member',
+            email_masked: ver.email_masked || parsed.email_masked || '',
+            session_token: parsed.session_token
+          };
+          await loadAuthenticatedMemberDashboard();
+        } else {
+          localStorage.removeItem(PORTAL_SESSION_STORAGE_KEY);
+          sessionStorage.removeItem(PORTAL_SESSION_STORAGE_KEY);
+        }
+      } catch (_) {}
+    }
+
+    async function handleMemberAuth(mode) {
+      hideBanner();
+      const uname = (document.getElementById('lookup-username-input')?.value || '').trim().replace(/^@+/, '');
+      const email = (document.getElementById('lookup-email-input')?.value || '').trim().toLowerCase();
+      const password = document.getElementById('lookup-password-input')?.value || '';
+      const updatesOptIn = Boolean(document.getElementById('lookup-updates-optin')?.checked);
+      const hpCheck = (document.getElementById('hp-account')?.value || '').trim();
+
+      if (!/^[A-Za-z0-9_.-]{3,32}$/.test(uname)) {
+        showBanner('error', 'Username must be 3–32 characters (letters, numbers, _, ., or -).');
+        return;
+      }
+      if (!isValidEmail(email)) {
+        showBanner('error', 'Please enter a valid email address so we can notify you about #ABHIKISM game updates and new releases.');
+        return;
+      }
+      if (password.length < 6) {
+        showBanner('error', 'Password must be at least 6 characters long.');
+        return;
+      }
+
+      const btnLogin = document.getElementById('btn-submit-account');
+      const btnReg = document.getElementById('btn-register-account');
+      btnLogin.disabled = true;
+      btnReg.disabled = true;
+      btnLogin.querySelector('span').textContent = mode === 'register' ? 'Creating Account...' : 'Signing In...';
+
+      try {
+        // Local DashboardServer first when running on localhost
+        if (isLocalServerHost()) {
+          const authResp = await fetch('/api/game-auth', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ action: mode, username: uname, email, password, updates_opt_in: updatesOptIn })
+          });
+          const authData = await authResp.json().catch(() => null);
+          if (authData && authData.ok) {
+            activeMemberSession = {
+              username: authData.username || uname,
+              role: authData.role || 'member',
+              email_masked: email,
+              session_token: authData.session_token || '',
+              local_only: true
+            };
+            const lkpResp = await fetch('/api/user-portal/lookup', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ identifier: uname, query_mode: 'account', password, _hp_check: hpCheck })
+            });
+            const lkpData = await lkpResp.json().catch(() => ({ records: [] }));
+            lastLookupSource = 'server';
+            currentSearchIdent = uname;
+            currentSearchRecords = lkpData.records || [];
+            renderMemberProfileBar({ username: activeMemberSession.username, email, updates_opt_in: updatesOptIn });
+            renderRecords(currentSearchRecords, true);
+            showBanner('success', `Signed in as @${activeMemberSession.username}.`);
+            return;
+          } else if (authData && (authData.error || authData.message)) {
+            showBanner('error', authData.error || authData.message);
+            return;
+          }
+        }
+
+        // Live Cloud Auth via Apps Script v4.0
+        const data = await postCloudJson({
+          action: mode === 'register' ? 'auth_register' : 'auth_login',
+          username: uname,
+          email: email,
+          password: password,
+          updates_opt_in: updatesOptIn,
+          source_origin: window.location.hostname || 'users.abhikism.com',
+          _hp_check: hpCheck
+        });
+
+        if (!data || !data.ok) {
+          showBanner('error', (data && (data.error || data.message)) ? (data.error || data.message) : 'Unable to authenticate right now. Please try again.');
+          return;
+        }
+
+        activeMemberSession = {
+          username: data.username || uname,
+          role: data.role || 'member',
+          email_masked: data.email_masked || email,
+          updates_opt_in: data.updates_opt_in !== false,
+          session_token: data.session_token
+        };
+        try {
+          const ser = JSON.stringify(activeMemberSession);
+          sessionStorage.setItem(PORTAL_SESSION_STORAGE_KEY, ser);
+          if (activeMemberSession.role !== 'admin') {
+            localStorage.setItem(PORTAL_SESSION_STORAGE_KEY, ser);
+          }
+        } catch (_) {}
+
+        document.getElementById('lookup-password-input').value = '';
+        await loadAuthenticatedMemberDashboard();
+        showBanner('success', mode === 'register'
+          ? `Welcome @${activeMemberSession.username}! Account created — you can browse the Official Leaderboard now and play any #ABHIKISM game anytime.`
+          : `Welcome back @${activeMemberSession.username}! Your member profile and Official Leaderboard are loaded below.`
+        );
+      } catch (err) {
+        showBanner('error', 'Network error reaching the #ABHIKISM cloud auth endpoint. Please retry.');
+      } finally {
+        btnLogin.disabled = false;
+        btnReg.disabled = false;
+        btnLogin.querySelector('span').textContent = '🔓 Sign In to Member Portal';
+      }
+    }
+
+    function renderMemberProfileBar(profile) {
+      const bar = document.getElementById('member-profile-bar');
+      const card = document.getElementById('auth-search-card');
+      if (!bar) return;
+      bar.style.display = 'block';
+      if (card) card.style.display = 'none';
+      document.getElementById('member-profile-username').textContent = '@' + String(profile.username || '').replace(/^@+/, '');
+      document.getElementById('member-profile-email').textContent = profile.email || profile.email_masked || 'Verified on file';
+      const tog = document.getElementById('member-updates-toggle');
+      if (tog) tog.checked = profile.updates_opt_in !== false;
+    }
+
+    async function loadAuthenticatedMemberDashboard() {
+      if (!activeMemberSession || !activeMemberSession.session_token) return;
+      lastLookupSource = 'cloud_account';
+      currentCloudUsername = activeMemberSession.username;
+      const accData = await postCloudJson({
+        action: 'user_account_records',
+        session_token: activeMemberSession.session_token
+      });
+      if (!accData || !accData.ok) {
+        handleMemberLogout(true);
+        showBanner('info', 'Your session expired. Please sign in again.');
+        return;
+      }
+      renderMemberProfileBar(accData.profile || activeMemberSession);
+      currentSearchRecords = Array.isArray(accData.records) ? accData.records : [];
+      renderRecords(currentSearchRecords, true);
+      await loadPortalPublicLeaderboard();
+    }
+
+    async function handleToggleUpdatesOptIn(checked) {
+      if (!activeMemberSession || !activeMemberSession.session_token || activeMemberSession.local_only) return;
+      const stEl = document.getElementById('member-updates-status');
+      if (stEl) stEl.textContent = 'Saving...';
+      try {
+        const res = await postCloudJson({
+          action: 'user_account_update_prefs',
+          session_token: activeMemberSession.session_token,
+          updates_opt_in: Boolean(checked)
+        });
+        if (stEl) stEl.textContent = (res && res.ok) ? (checked ? '✓ Updates ON' : 'Updates Paused') : 'Retry';
+      } catch (_) {
+        if (stEl) stEl.textContent = 'Network error';
+      }
+    }
+
+    async function handleMemberLogout(silent) {
+      const tok = activeMemberSession ? activeMemberSession.session_token : '';
+      activeMemberSession = null;
+      try {
+        sessionStorage.removeItem(PORTAL_SESSION_STORAGE_KEY);
+        localStorage.removeItem(PORTAL_SESSION_STORAGE_KEY);
+      } catch (_) {}
+      if (tok && !isLocalServerHost()) {
+        postCloudJson({ action: 'auth_logout', session_token: tok }).catch(() => {});
+      }
+      document.getElementById('member-profile-bar').style.display = 'none';
+      document.getElementById('auth-search-card').style.display = 'block';
+      document.getElementById('results-section').style.display = 'none';
+      document.getElementById('empty-state').style.display = 'none';
+      document.getElementById('portal-leaderboard-section').style.display = 'none';
+      if (!silent) showBanner('info', 'You have been signed out cleanly.');
+    }
+
+    async function loadPortalPublicLeaderboard() {
+      if (!activeMemberSession || !activeMemberSession.username) return;
+      const sec = document.getElementById('portal-leaderboard-section');
+      const rowsEl = document.getElementById('portal-lb-rows');
+      const cntEl = document.getElementById('portal-lb-count');
+      if (!sec || !rowsEl) return;
+      sec.style.display = 'block';
+      cntEl.textContent = 'Syncing...';
+      rowsEl.innerHTML = '<div style="padding:14px;text-align:center;color:var(--ink-ochre);font-size:12.5px;">⏳ Loading live Official Leaderboard...</div>';
+      try {
+        const url = `${USERS_CLOUD_WEBHOOK_URL}?action=leaderboard&game_id=daakbaksher-gaan&username=${encodeURIComponent(activeMemberSession.username)}`;
+        const resp = await fetch(url);
+        const data = await resp.json().catch(() => null);
+        const rows = (data && Array.isArray(data.leaderboard)) ? data.leaderboard : [];
+        cntEl.textContent = `${rows.length} Verified Run${rows.length === 1 ? '' : 's'}`;
+        if (rows.length === 0) {
+          rowsEl.innerHTML = '<div style="padding:16px;text-align:center;color:var(--ink-muted);font-size:13px;">No completions posted yet — be the first champion on the board!</div>';
+          return;
+        }
+        rowsEl.innerHTML = rows.slice(0, 25).map((r, idx) => {
+          const rank = idx + 1;
+          const uname = r.username ? ('@' + String(r.username).replace(/^@+/, '')) : (r.player_name || '@player');
+          const socialStr = r.social_handle ? ` • ${escapeHtml(r.social_platform || 'Social')}: ${escapeHtml(r.social_handle)}` : '';
+          return `
+            <div class="lb-row ${rank <= 3 ? 'winner' : ''}">
+              <div>
+                <strong style="color:var(--ink-ochre);font-family:'JetBrains Mono',monospace;margin-right:8px;">#${rank}</strong>
+                <strong style="color:var(--ink-cream);">${escapeHtml(uname)}</strong>
+                <span style="color:var(--ink-muted);font-size:12px;">${socialStr}</span>
+              </div>
+              <div class="lb-tags">
+                <span class="lb-tag">${escapeHtml(r.game_version || 'v8.0.0')}</span>
+                <span class="lb-tag">Lv ${Number(r.level) || 1}/5</span>
+                <span class="lb-tag">⏱️ ${escapeHtml(r.completion_time_formatted || '00:00.0')}</span>
+                <span class="lb-tag score">${Number(r.score) || 0} PTS</span>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } catch (_) {
+        cntEl.textContent = 'Offline';
+        rowsEl.innerHTML = '<div style="padding:14px;text-align:center;color:var(--ink-muted);font-size:12.5px;">Unable to load live standings right now. Please refresh.</div>';
+      }
+    }
+
     async function handleCloudCertLookup(event) {
       event.preventDefault();
       hideBanner();
@@ -931,27 +1169,22 @@
       }
       currentSearchIdent = certId;
       currentCloudUsername = uname;
-      lastLookupSource = 'cloud';
+      lastLookupSource = 'cloud_cert';
       btn.disabled = true;
       btn.querySelector('span').textContent = 'Verifying...';
       try {
-        const resp = await fetch(USERS_CLOUD_WEBHOOK_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-          body: JSON.stringify({
-            action: 'user_self_lookup',
-            certificate_id: certId,
-            username: uname,
-            _hp_check: hpCheck
-          })
+        const data = await postCloudJson({
+          action: 'user_self_lookup',
+          certificate_id: certId,
+          username: uname,
+          _hp_check: hpCheck
         });
-        const data = await resp.json().catch(() => null);
         if (!data || data.status === 'ERROR' || data.status === 'RATE_LIMITED' || data.status === 'REJECTED_BOT') {
           showBanner('error', (data && data.message) ? data.message : 'Unable to verify certificate record.');
           return;
         }
         currentSearchRecords = Array.isArray(data.records) ? data.records : [];
-        renderRecords(currentSearchRecords);
+        renderRecords(currentSearchRecords, false);
         if (currentSearchRecords.length === 0) {
           showBanner('info', data.message || 'No active record matched that Certificate ID and @username.');
         } else {
@@ -1003,7 +1236,7 @@
         });
         const data = await resp.json().catch(() => null);
         if (!data) {
-          showBanner('info', 'On the public web (users.abhikism.com), please use the "Certificate ID + Username (Live Cloud)" tab so your email/phone cannot be probed remotely.');
+          showBanner('info', 'On users.abhikism.com, please sign in using the "Member Login / Sign Up" tab so personal contact info is protected by your password.');
           return;
         }
         if (resp.status === 400 && data.status === 'REJECTED_BOT') {
@@ -1019,31 +1252,37 @@
           return;
         }
         currentSearchRecords = data.records || [];
-        renderRecords(currentSearchRecords);
+        renderRecords(currentSearchRecords, false);
         if (currentSearchRecords.length === 0) {
           showBanner('info', data.message || 'No active records found for this identifier.');
         } else {
           showBanner('success', `Successfully retrieved ${currentSearchRecords.length} active record(s).`);
         }
       } catch (err) {
-        showBanner('info', 'Local server API is unavailable on this host — switch to the "Certificate ID + Username (Live Cloud)" tab to verify and manage your cloud records.');
+        showBanner('info', 'Local server API is unavailable on this host — use the "Member Login / Sign Up" tab above.');
       } finally {
         submitBtn.disabled = false;
         submitBtn.querySelector('span').textContent = (mode === 'identifier')
           ? 'Look Up Submitted Records'
-          : 'Authenticate & View Records';
+          : '🔓 Sign In to Member Portal';
       }
     }
 
-    function renderRecords(records) {
+    function renderRecords(records, isMemberView) {
       const resultsSection = document.getElementById('results-section');
       const recordsContainer = document.getElementById('records-container');
       const countBadge = document.getElementById('results-count-badge');
       const emptyState = document.getElementById('empty-state');
+      const emptyText = document.getElementById('empty-state-text');
       recordsContainer.innerHTML = '';
       if (!records || records.length === 0) {
         resultsSection.style.display = 'none';
         emptyState.style.display = 'block';
+        if (emptyText) {
+          emptyText.textContent = isMemberView
+            ? 'You have not completed any game runs yet — your account & game-update email notifications are active for DaakBaksher Gaan and all upcoming #ABHIKISM games!'
+            : 'No active gameplay or certificate records found for the queried credentials.';
+        }
         return;
       }
       emptyState.style.display = 'none';
@@ -1079,7 +1318,7 @@
             ${rec.voluntary_name ? `<div class="voluntary-row"><span class="voluntary-key">Name:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_name)}</span></div>` : ''}
             ${rec.voluntary_email ? `<div class="voluntary-row"><span class="voluntary-key">Email:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_email)}</span></div>` : ''}
             ${rec.voluntary_phone ? `<div class="voluntary-row"><span class="voluntary-key">Phone:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_phone)}</span></div>` : ''}
-            ${rec.has_voluntary_info ? `<div class="voluntary-row"><span class="voluntary-key">Voluntary Info:</span><span class="voluntary-val">Stored privately on server (Email: ${rec.has_voluntary_email ? 'On file' : 'None'}, Phone: ${rec.has_voluntary_phone ? 'On file' : 'None'}) — hidden from public wire</span></div>` : ''}
+            ${rec.has_voluntary_info ? `<div class="voluntary-row"><span class="voluntary-key">Voluntary Info:</span><span class="voluntary-val">Stored privately on server — hidden from public wire</span></div>` : ''}
             ${rec.voluntary_location ? `<div class="voluntary-row"><span class="voluntary-key">Location:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_location)}</span></div>` : ''}
             ${rec.voluntary_favorite_song ? `<div class="voluntary-row"><span class="voluntary-key">Favorite Song:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_favorite_song)}</span></div>` : ''}
             ${rec.voluntary_message ? `<div class="voluntary-row"><span class="voluntary-key">Note:</span><span class="voluntary-val">${escapeHtml(rec.voluntary_message)}</span></div>` : ''}
@@ -1117,20 +1356,25 @@
       try {
         let ok = false;
         let msg = '';
-        if (lastLookupSource === 'cloud') {
-          const resp = await fetch(USERS_CLOUD_WEBHOOK_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-            body: JSON.stringify({
-              action: 'user_self_delete',
-              certificate_id: certId,
-              username: currentCloudUsername,
-              confirmation: true,
-              reason: reason,
-              _hp_check: ''
-            })
+        if (lastLookupSource === 'cloud_account' && activeMemberSession && activeMemberSession.session_token) {
+          const data = await postCloudJson({
+            action: 'user_account_delete_record',
+            session_token: activeMemberSession.session_token,
+            certificate_id: certId,
+            confirmation: true,
+            reason: reason
           });
-          const data = await resp.json().catch(() => null);
+          ok = Boolean(data && data.status === 'SUCCESS');
+          msg = (data && data.message) ? data.message : 'Unable to delete record.';
+        } else if (lastLookupSource === 'cloud_cert') {
+          const data = await postCloudJson({
+            action: 'user_self_delete',
+            certificate_id: certId,
+            username: currentCloudUsername,
+            confirmation: true,
+            reason: reason,
+            _hp_check: ''
+          });
           ok = Boolean(data && data.status === 'SUCCESS');
           msg = (data && data.message) ? data.message : 'Unable to delete record.';
         } else {
@@ -1156,7 +1400,8 @@
           const card = document.getElementById(`card-${certId}`);
           if (card) card.remove();
           currentSearchRecords = currentSearchRecords.filter(r => r.certificate_id !== certId);
-          renderRecords(currentSearchRecords);
+          renderRecords(currentSearchRecords, lastLookupSource === 'cloud_account');
+          if (activeMemberSession) loadPortalPublicLeaderboard();
         } else {
           showBanner('error', 'Deletion error: ' + msg);
           closeDeleteModal();
